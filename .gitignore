@@ -9,7 +9,8 @@ env/
 ENV/
 
 # Data files
-data/
+data/*
+!data/.gitkeep
 *.jsonl
 *.csv
 *.json
