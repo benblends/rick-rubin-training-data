@@ -19,7 +19,8 @@ class YouTubeCollector:
     
     def __init__(self):
         self.rick_rubin_channels = {
-            'tetragrammaton': 'UC9tiWvxlB3qDBmOl85d-bqg',
+            'tetragrammaton': 'UCU1dNBOCJnl54mLaIR-A-9Q',  # Corrected channel ID
+            'broken_record': 'UCdBY0otOhDpjpvxDLPJqsOg',  # Broken Record podcast
             # Add more channels as discovered
         }
         

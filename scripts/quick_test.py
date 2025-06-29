@@ -18,8 +18,8 @@ def test_single_video(url: str = None):
     
     # Default to a known good Rick Rubin interview if no URL provided
     if not url:
-        # On Being interview with Krista Tippett (high quality philosophical content)
-        url = "https://www.youtube.com/watch?v=H_uznVVaflg"
+        # Rick Rubin interview with Rick Beato - verified working
+        url = "https://www.youtube.com/watch?v=qkwISstQQVw"
         print(f"No URL provided, using default: {url}")
     
     print("\n=== YouTube Collector Test ===")
