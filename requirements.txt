@@ -1,0 +1,19 @@
+# Core dependencies for MVP
+youtube-transcript-api==0.6.1
+yt-dlp==2023.12.30
+pandas==2.1.4
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Data processing
+python-dateutil==2.8.2
+
+# Future dependencies (uncomment as needed)
+# openai==1.6.1  # For Whisper API
+# sqlite3  # Built-in, no install needed
+# discogs-client==2.3.0  # For music database
+# musicbrainzngs==0.7.1  # For music metadata

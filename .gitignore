@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data files
+data/
+*.jsonl
+*.csv
+*.json
+!config/*.json
+!config/*.yaml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# API Keys and Secrets
+.env
+config/api_keys.env
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.cache/
+
+# Large media files
+*.mp3
+*.mp4
+*.wav
+*.m4a
+
+# Exports (keep structure but not files)
+exports/**/*.jsonl
+exports/**/*.csv
+exports/**/*.json
+!exports/**/.gitkeep
